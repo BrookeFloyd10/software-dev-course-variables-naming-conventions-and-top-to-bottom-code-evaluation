@@ -24,11 +24,25 @@ Things to reflect on:
   
 */
 
-let name = "Alice";
-let howManyItems = 5;
-let itemCost = 20;
-let totalSpent = howManyItems * itemCost;
-let itemType = "books"
+let name = "Alice"; // stores name of user
+let howManyItems = 5; // number of items user has
+let itemCost = 20; // stores the cost of the items
+let totalSpent = howManyItems * itemCost; // tells total spent
+let itemType = "books" // tells what the items are
 let purchaseSummary = name + " bought " + howManyItems + " " + itemType + " for $" + itemCost + " spending a total of $" + totalSpent + ".";
 
 console.log(purchaseSummary);
+
+// more specific example from assignment review
+
+// let userName = "Alice"; // stores name of user
+// let itemsInCart = 5; // number of items in  the shopping cart
+// let item1 = "Playstation"; // One of the items
+// let item2 = "Headphones"; // Another of the items
+// let item3 = "Controller"; // Yet another of the items
+// let totalCost = 150.0; // Total cost of the items
+// let statement = (userName + " has " + itemsInCart + " items totaling:
+// " + totalCost + ", including: a " + item1 + ", a pair of " + item2 +
+// ", and a " + item3);
+
+// console.log(statement);
