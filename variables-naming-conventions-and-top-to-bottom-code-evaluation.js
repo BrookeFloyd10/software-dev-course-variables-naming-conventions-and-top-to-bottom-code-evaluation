@@ -46,3 +46,4 @@ console.log(purchaseSummary);
 // ", and a " + item3);
 
 // console.log(statement);
+// adding this so i can commit to the feature branch and see the difference
